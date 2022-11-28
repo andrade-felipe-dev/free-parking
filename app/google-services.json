@@ -1,0 +1,48 @@
+{
+  "implementation": "com.google.firebase:firebase-database-ktx",
+  "project_info": {
+    "project_number": "1067221107335",
+    "project_id": "free-parking-5dfde",
+    "storage_bucket": "free-parking-5dfde.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067221107335:android:d9e1535952df099a18ee22",
+        "android_client_info": {
+          "package_name": "com.andradefelipedev.freeparking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067221107335-b9nesme1eb2nupueqiu6tavvfd0jm1rj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.andradefelipedev.freeparking",
+            "certificate_hash": "701f39e62ffa863beace77577786858922d34831"
+          }
+        },
+        {
+          "client_id": "1067221107335-6rqge8cu5q0877jl30f1jckmn080cf60.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtRKiys4wvPxkHMXO47iK-VkUFOpGFpPU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1067221107335-6rqge8cu5q0877jl30f1jckmn080cf60.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
