@@ -19,20 +19,44 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="100dp">
+
 
             <TextView
                 android:id="@+id/textDescription"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_margin="16dp"
+                android:layout_margin="8dp"
+                android:layout_marginTop="48dp"
                 android:ellipsize="end"
                 android:maxLines="2"
                 android:textStyle="bold"
+                android:gravity="center"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                tools:text="Otimizar códigos do aplicativo para deixar o aplicativo mais rápido." />
+                tools:text="Vaga 1" />
+
+
+            <TextView
+                android:id="@+id/textHorarioChegada"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Horario Chegada"
+                app:layout_constraintEnd_toStartOf="@+id/textHorarioSaida"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="57dp" />
+
+            <TextView
+                android:id="@+id/textHorarioSaida"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Horario Saída"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.791"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="57dp" />
 
             <ImageButton
                 android:id="@+id/btnRegister"

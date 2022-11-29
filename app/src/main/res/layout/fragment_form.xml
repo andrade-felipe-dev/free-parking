@@ -57,7 +57,7 @@
                 />
 
             <EditText
-                android:id="@id/edtEmail"
+                android:id="@+id/edtPlaca"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/bg_edit_text"
@@ -106,7 +106,7 @@
                 />
 
             <Button
-                android:id="@+id/btnLogin"
+                android:id="@+id/btnSalvar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Salvar"
